@@ -1,11 +1,11 @@
 exports.mainPage= 
 class mainPage {
-    /* Описываем нужные элементы на главной стринице youtube.com
-    1. Кнопка инпута помскавого запроса "searchInput"
+    /* Описываем нужные элементы на главной странице duck.com
+    1. Кнопка инпута поискавого запроса "searchInput"
     2. Кнопка значка поиска "searchButton" */
     constructor(page) {
         this.page=page;
-        // Обозначаем локатор для постройки функции
+        // Обозначаем локатор
         this.searchInput = '#searchbox_input';
         this.searchButton = "//button[@aria-label='Search']";
     }
