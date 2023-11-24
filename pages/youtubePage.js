@@ -5,13 +5,15 @@ exports.youtubePage= class youtubePage {
     constructor(page) {
         this.page=page;
         //Обозначаем локатор для постройки функции
-        this.pauseButton = ".video-stream.html5-main-video";
+        this.pauseButton = "//div[@id='movie_player']";
+        this.subscribeButton = "//button[@aria-label='Subscribe to Rick Astley.']";
     }
 
     //создаем функцию, которую потом вызовим в тесте
      async gotoyoutubeAction(){
      //нажатие на паузу
         await this.page.locator(this.pauseButton).click();
+        await this.page.locator(this.subscribeButton).click();
      }
 
      
