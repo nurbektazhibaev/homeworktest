@@ -18,8 +18,8 @@
 * resultPage
 * youtubePage
 
-- Названия файла: homeWorkTest.spec.js 
-- Запуск в терминале по команде: npx playwright test homeWorkTest.spec.js --project chromium --headed
+-Названия файла: homeWorkTest.spec.js 
+-Запуск в терминале по команде: npx playwright test homeWorkTest.spec.js --project chromium --headed
 
 ps: Не удалось нажать на лайк, элемент не поддается идентицикации. Вместо лайка используется другие кнопки на сайте youtube, такие как подписаться, пауза на видео. 
 
